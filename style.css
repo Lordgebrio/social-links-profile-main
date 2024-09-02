@@ -18,7 +18,7 @@ body {
 }
 
 .tarjet-container {
-  width: 500px;
+  width: 25%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,4 +70,10 @@ body {
   color: hsl(0, 0%, 8%);
   transition: 1s;
   cursor: pointer;
+}
+
+@media (width <= 375px) {
+  .tarjet-container {
+    width: 300px;
+  }
 }
