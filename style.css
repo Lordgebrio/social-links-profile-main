@@ -64,3 +64,10 @@ body {
   border-radius: 5px;
   border-style: none;
 }
+
+.tarjet-container .button .btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition: 1s;
+  cursor: pointer;
+}
